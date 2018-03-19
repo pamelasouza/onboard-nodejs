@@ -1,0 +1,9 @@
+{
+  "name": "on-board-node-js",
+  "version": "0.0.0",
+  "description": "OnBoardNodeJs",
+  "main": "server.js",
+  "author": {
+    "name": "Felipe Queiroz"
+  }
+}
