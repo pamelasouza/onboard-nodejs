@@ -10,6 +10,9 @@ const router = express.Router();
 //conexao bd
 mongoose.connect('mongodb://pamqk:pancake10@ds119449.mlab.com:19449/onboardb')
 
+//carrega os models
+const Product = require('./models/product');
+
 //carrega as rotas
 const indexRoute = require('./routes/index-route');
 const productRoute = require('./routes/product-route');
